@@ -1,0 +1,296 @@
+@font-face {
+  font-family: gotham;
+  src: url('../fonts/gotham/GothamLight.ttf'); 
+}
+
+@font-face {
+  font-family: gothamBold;
+  src: url('../fonts/gotham/GothamBold.ttf'); 
+}
+
+header{
+	background: #75aef3;
+	padding: 3px 0;
+    height: 50px;
+}
+.logo-wrapper{
+	
+	font-size:23px;
+	font-weight:bold;
+	color:white
+}
+.logo-wrapper i{
+	padding-right:10px;
+	font-size:1.5em;
+}
+.navbar-right li{
+	display: inline-block;
+}
+.navbar-right li a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar-right li a:hover {
+	background: none;
+	color:#000;
+}
+.navbar-right li p a{
+	padding-left: 7px;
+}
+.navbar-right li p a:hover {
+	color:#fff;
+}
+.navbar-right li p img{
+	width: 32px;
+}
+.sec-1 ul{
+	    margin-top: -37px;
+}
+ .tab {
+    float: left;
+    width: 25%;;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.content_1{
+	float: left;
+    width: 65%;;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.content_2{
+	float: left;
+    width: 35%;;
+}
+/* Style the buttons inside the tab */
+ .tab .tablinks {
+    display: block;
+    background-color: inherit;
+    color: black;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: 0.3s;
+    font-size: 14px;
+    position: relative;
+    padding: 12px 10px 16px;
+    cursor: pointer;
+    max-height: 70px;
+    height: 70px;
+}
+.que-pr hr {
+    margin-top: 0px;
+     margin-bottom: 0px; 
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+/* Change background color of buttons on hover */
+ .tab .tablinks:hover {
+        background-color: rgba(117,174,243,.53);
+
+}
+.tab .tablinks:hover .que-pr hr{
+	display: none;
+}
+.tab .tablinks:hover p, .tab .tablinks.active .que-pr hr{
+	color: #fff;
+}
+/* Create an active/current "tab button" class */
+ .tab .tablinks.active {
+    background-color: #75aef3;
+}
+.tab .tablinks.active p{
+	color: #fff;
+}
+ .tabcontent {
+    float: left;
+        width: 75%;
+    padding: 12px 0;
+    border-left: none;
+    
+}
+ 
+  .tabcontent h4{
+        color: #636363;
+        font-size: 14px;
+        font-weight: bold;
+}
+  .tabcontent span{
+        padding-right: 10px;
+} .tabcontent .que-pr h4{
+        margin-bottom: 6px;
+        font-size: 16px;
+}
+ .tabcontent .pad_0-pr{
+        padding-left: 0;
+    margin-left: -52px;
+}
+.tabcontent .que-pr img{
+        height: 57px;
+    width: 64%!important;
+    margin-top: 7px;
+}
+.chat-search img{
+	width: 25px;
+    padding-top: 10px;
+
+}
+.chat-search{
+     border-bottom: 1px solid rgba(0,0,0,.1);
+         padding: 11px;
+    }
+.que-pr img{
+	width: 40px;
+}
+.pad_0-pr{
+	margin-left: -10px;
+	padding-top: 3px;
+}
+.pad_0-pr h4{
+	font-size: 14px;
+	margin-top: 0;
+
+	
+}
+.sidebar{
+	padding-top: 62px;
+}
+.sidebar p{
+	    color: #999;
+}
+.tab .tablinks.active span, .tab .tablinks:hover span {
+    color: #fff;
+    background: 0 0;
+}
+ .tab .tablinks .time {
+    font-size: 9px;
+    position: absolute;
+    top: 3px;
+    right: 5%;
+    padding: 0;
+    color: #999;
+}
+.content_2_1{
+	text-align: center;
+}
+.content_2_1 img{
+	    width: 40px;
+    height: 40px;
+}
+.fw ul{
+	list-style-type: none;
+}
+.fw ul li{
+	display: inline-block;
+}
+.fw ul li img{
+	width: 32px;
+	height: 32px;
+}
+.fw-sender {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    margin-right: 15px;
+}
+.fw-message-text {
+    margin-right: 5px;
+    border-radius: 5px 0 5px 5px;
+    padding: 2px;
+    color: #f5f5f5;
+    background-color: #0084ff;
+    min-height: 30px;
+    line-height: 150%;
+    max-width: 95%;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+    display: inline-block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+    text-align: -webkit-left;
+    text-align: -moz-left;
+}
+ .fw-message-text1 {
+    margin-left: 5px;
+    border-radius: 0 5px 5px 5px;
+    background-color: #eee;
+    padding: 2px;
+    color: #f5f5f5;
+    
+    min-height: 30px;
+    line-height: 150%;
+    max-width: 95%;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+    display: inline-block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+    text-align: -webkit-left;
+    text-align: -moz-left;
+}
+ .fw-message-author-name {
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: 700;
+    color: #337ab7;
+}
+.content_1 .pad-1 img{
+float:left;
+cursor:pointer;
+width:25px;
+height:22px;
+margin-left:5px;
+}
+.content_2 #block, .content_2 #mute, #unblock, #unmute{
+	cursor:pointer;
+	color:#75aef3;
+	padding-right:0;
+}
+.content_2 #block i, .content_2 #mute i{
+	padding-right:10px;
+}
+.content_2 .pad-5 {
+    padding: 10px!important;
+}
+.pad-10 {
+    padding: 10px!important;
+}
+.content_2 .pad-5:hover{
+	background: #75aef3;
+}
+.content_2 .pad-5:hover i, .content_2 .pad-5:hover strong{
+	color: #000;
+}
+.content_2 hr
+{
+	margin-bottom: 0;
+}
+.content_2_3 ul li{
+	    list-style-type: none;
+}
+.content_2_3 ul{
+	    padding: 10px;
+}
+.content_2_3 .sectionName {
+    color: #999;
+    background-color: #eee;
+}
+ .simple-input {
+    margin-left: -6px;
+    font-size: 16px;
+    color: #8e8d8d;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 20px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    transition: all .15s;
+    -webkit-transition: all .15s;
+}

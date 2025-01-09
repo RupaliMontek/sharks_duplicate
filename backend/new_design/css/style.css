@@ -1,0 +1,938 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+  .error{
+    color: red;
+  }
+ 
+   .joining_form{
+       color:#000;
+   }
+   .joining_form h3.h3{
+      color:#000;
+      text-align:center;
+      
+  }
+ .joining_form label{
+     color:#000;
+     font-size:14px;
+ }
+ .joining_form .box-header {
+    color: #000;
+    padding: 0
+ }
+ .joining_form .box-title{
+         margin-bottom: 20px!important;
+ }
+  .joining_form .overlyblck-pp{
+     background:#ecf0f5;
+ }
+ .bg_col{
+      background:#fff;
+    border-top: 3px solid #d2d6de;
+    box-shadow: 0px 10px 15px -3px #777777;
+ }
+ .joining_form .overlyblck-pp h2{
+     
+    padding-top: 1%;
+ } 
+ textarea {
+    width: 100%;
+ }
+ 
+.frgttxt-p .btn{
+        background-color: #419ea5;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 0 auto;
+    outline: none;
+        width: auto;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+}
+a:hover,a:focus,a:active{
+    text-decoration: none;
+    outline: none;
+}
+.bgcoloffmgmt-p{
+    background-image: url(https://msuite.work/backend/new_design/bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 793px;    
+}
+.overlyblck-p{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.79);
+}
+/*swara css start*/
+.newproduct{
+    text-align: center;
+}
+.newproduct h2{
+    color: #fff;
+    letter-spacing: 5px;
+   margin-bottom: 45px;
+    display: inline-block;
+    padding-right: 3px;
+    text-transform: uppercase;
+    font-family: 'Slabo 27px', serif;
+    
+}
+.product p{
+     color: #fff;
+    font-size: 21px;
+      font-family: 'Josefin Slab', serif; 
+      padding-top: 20px;  
+}
+.product{
+    text-align: center;
+}
+.pricingTable{
+    padding: 30px 0;
+    border: 1px solid #043565;
+    /*text-align: center;*/
+    color: #043565;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    background-color: white;
+    margin-bottom: 50px;
+    height:650px;
+}
+.pricingTable-signup{
+    text-align:center;
+}
+.pricingTable:hover{
+    background: #25ced1;
+    border-color: #fff;
+    color: #fff;
+}
+.price_btn {
+    text-align: center;
+}
+.pricingTable:before{
+    content: "";
+    border-top: 45px solid #043565;
+    border-bottom: 45px solid transparent;
+    border-right: 45px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+    
+}
+.pricingTable:hover:before{ border-top-color: #fff; }
+.pricingTable:after{
+    content: "";
+    border-bottom: 45px solid #043565;
+    border-top: 45px solid transparent;
+    border-left: 45px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable:hover:after{ border-bottom-color: #fff; }
+.pricingTable .title{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    text-align: center
+}
+.pricingTable .price-value{
+    font-size:25px;
+    margin-bottom: 40px;
+    text-align: center
+}
+.pricingTable .month{
+    display: block;
+    font-size: 20px;
+    line-height: 10px;
+    text-transform: capitalize;
+}
+.pricingTable .pricing-content{
+    padding: 20px 0 0;
+    margin: 0 29px 20px;
+    list-style: none;
+    font-size: 16px;
+    line-height:35px;
+    border-top: 1px solid #043565;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable:hover .pricing-content{ border-top-color: #fff; }
+.pricingTable .pricing-content:before{
+    content: "\f1b3";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 70px;
+    background: #fff;
+    font-size: 30px;
+    margin: 0 auto;
+    position: absolute;
+    top: -22px;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+}
+.pricingTable:hover .pricing-content:before{ background: #25ced1; }
+.pricingTable .pricingTable-signup{
+    display: inline-block;
+    padding: 7px 30px;
+    border-radius: 10px;
+    border: 1px solid #043565;
+    font-size: 18px;
+    font-weight: 600;
+    color: #043565;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable:hover .pricingTable-signup{
+    color: #fff;
+    border-color: #fff;
+}
+.btnsgnup-p {
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 30px; }
+}
+/*swara css end*/
+
+.logo img {
+  width: 13%;
+    margin-top: 32px;
+    display: inline-block;
+    height:100px;
+}
+.overlyblck-p h2{
+    width:100%;
+    margin-top: 0px;
+    color: #fff;
+    letter-spacing: 5px;
+    padding-top:3%;
+    display: inline-block;
+    padding-right: 3px;
+    text-transform: uppercase;
+    font-family: 'Slabo 27px', serif;
+    font-size:40px;
+}
+.prdctdegncontn-p h1{
+    color: #4aebf7;
+}
+.prdctdegncontn-p p{
+    color: #fff;
+    font-size: 21px;
+      font-family: 'Josefin Slab', serif;  
+}
+.prdctdegncontn-p ul {
+    list-style-type: none;
+    padding-left: 26px;
+}
+.prdctdegncontn-p ul li i{
+    color: #419ea5;
+    padding-right: 10px;
+}
+.prdctdegncontn-p ul li{
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 10px;
+        font-family: 'Josefin Slab', serif;
+}
+.prdctdegncontn-p{
+    padding-top:8%;
+}
+.btnsgnup-p a{
+    line-height: 26px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #419ea5;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btnsgnup-p{
+    margin-top: 70px;
+}
+.btnsgnup-p a:hover,.btnsgnup-p a:focus,.btnsgnup-p a:active{
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+.loginpag-p{
+        /*height: 793px;
+        background-color: #1a2a41;*/
+        background-image: url(https://msuite.work/backend/new_design/bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 793px;
+}
+.overlyblck-p {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.79);
+}
+.lognform-p{
+background: rgba(4, 4, 4, 0.56);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 25px;
+    width: 65%;
+    margin: 0 auto;
+    margin-top:0%;
+
+}
+.login-logo {
+    text-align: center!important;
+}
+.login-logo img {
+    width: 30%;
+}
+.lognform-p h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2em;
+    letter-spacing: 2px;
+}
+.lognform-p .icon-w3 {
+    display: inline-block;
+    position: absolute;
+    right: 18px;
+    bottom: 43px;
+}
+.lognform-p .icon-w3 i {
+    color: #ffffff;
+    font-size: 16px;
+}
+.lognform-p input.form-control {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    background: transparent;
+    box-shadow: unset;
+}
+.frgttxt-p .modal-body {
+    background-color: #1a2a41;
+}
+.lognform-p input.form-control input:focus{
+    outline-offset: -2px;
+}
+.logn-p {
+    /*background-image: url(https://localhost:85/multi_office/backend/new_design/bg2.jpg);*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 793px;
+}
+.regovly-p{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #585a59 0%, #ffffff 100%);
+    /*background-image: url(../Background.jpg);*/
+}
+.lognform-p .btn.ppsignup-p{
+    width: 95%;
+    background-color:#2bb515;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 0 auto 20px;
+    outline: none;
+}
+.reghr-p a,.frgt-p a,.arrwback a{
+    color:#ffd901;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 0 auto;
+    font-size: 15px;
+    outline: none;
+    outline: none;
+}
+.reghr-p a:hover,.reghr-p a:active,.reghr-p a:focus,
+.frgt-p a:hover,.frgt-p a:active,.frgt-p a:focus,
+.arrwback a:hover,.arrwback a:active,.arrwback a:focus{
+    outline: none;
+    color: #fff;
+}
+.reghr-p,.arrwback{
+    text-align: left;
+}
+.frgt-p{
+    text-align: right;
+}
+.arrwback a{
+        color: #c32a45;
+}
+
+.register-p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 4px 10px 0px, rgba(0, 0, 0, 0.69) 0px 7px 25px 0px, rgba(0, 0, 0, 0.4) 0px 0px 39px -11px;
+    border: 1px solid #6b6b6b;
+    background-color:white;
+    /*background-color: rgba(169, 166, 166, 0.13);*/
+}
+.register-p .form-horizontal .control-label {
+    text-align: left;
+    color:black;
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    }
+.register-p {
+   position: relative;
+    width:100%;
+    margin: 15% auto 4%;
+}
+.ppsgncentr-p{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn.ppsignup-p{
+    width: 95%;
+    background-color:#5fb92a;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 0 auto;
+    outline: none;
+}
+.btn.ppsignup-p:hover,.btn.ppsignup-p:active,.btn.ppsignup-p:focus{
+    outline: none;
+    background-color: #fff;
+    color: #000;
+}
+.register-p h3 {
+    text-align: left;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    color:black;
+    margin-bottom: 23px;
+}
+/*.ppmregbtm-p {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+.register-p input.form-control {
+    height: 40px;
+    border-radius: 0px 10px 0px 10px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.83);
+    border: 1px solid #484848;
+    border-top: 5px solid #5fb92a;
+}
+.ppgohm-p {
+    text-align: center;
+}
+.ppgohm-p i {
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+}
+a.sgninp-p{
+    position: absolute;
+    background-color:#5fb92a;
+    color: #fff;
+    right: 42px;
+    top: 31px;
+    font-size: 15px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+.ppcpyrght-p {
+    text-align: center;
+    margin-top: 5%;
+}
+.ppcpyrght-p a{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.frgttxt-p h4{
+     text-align: center;
+    font-weight: bold;
+    font-size: 23px; 
+    color: #dcdcdc;
+}
+.frgttxt-p p{
+    text-align: center;
+    font-size: 18px;
+    color: #cecece;
+    font-weight: bold;
+}
+.frgttxt-p .close{
+    position: absolute;
+    float: none;
+    right: 12px;
+    opacity: 1;
+    color: #fff;
+    font-size: 23px;
+    top: 7px;
+    margin: 0px;
+    z-index: 1000;
+}
+.frgttxt-p .modal-content .close:hover,.frgttxt-p .modal-content .close:active,.frgttxt-p .modal-content .close:focus{
+    outline: none;
+}
+.frgttxt-p input{
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #cecece;
+    height: 40px;
+    border: 1px solid #a5a5a5;
+    width: 80%;
+    margin: 11px auto;
+}
+.ppsunmtp-p{
+    text-align: center;
+}
+.ppsunmtp-p button{
+    border: 1px solid #419ea5;
+    background-color: #419ea5;
+    outline: none;
+    font-size: 15px;
+    width: 80%;
+    color: #fff;
+    display: block;
+    margin: 14px auto;
+}
+.ppsunmtp-p .btn:hover,.ppsunmtp-p .btn:active,.ppsunmtp-p .btn:focus{
+     color: #419ea5;
+     outline: none;  
+    background-color: rgba(50, 208, 222, 0.12941176470588237);
+}
+
+
+/* Responsive css */
+@media screen and (max-width:2960px) {
+
+}
+
+@media screen and (max-width:2560px) {
+
+}
+
+@media screen and (max-width:2048px) {
+
+}
+
+@media screen and (max-width:1920px) {
+
+}
+
+@media screen and (max-width:1600px) {
+
+}
+
+@media screen and (max-width:1536px) {
+
+}
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+.prdctdegncontn-p h1 {
+font-size: 33px;
+}
+.prdctdegncontn-p {
+    padding-top: 2%;
+}
+.bgcoloffmgmt-p {
+    /*height: 780px;*/
+    height:auto;
+}
+}
+
+@media screen and (max-width:1344px) {
+
+}
+
+@media screen and (max-width:1280px) {
+.bgcoloffmgmt-p {
+    height: auto;
+}
+.overlyblck-p {
+    padding-bottom: 10%;
+    padding-top: 2%;
+}
+}
+
+@media screen and (max-width:1200px) {
+.prdctdegncontn-p h1 {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width:1136px) {
+.overlyblck-p {
+    padding-bottom: 6%;
+    padding-top: 2%;
+}
+.prdctdegncontn-p h1 {
+    font-size: 28px;
+}
+.lognform-p {
+    width: 84%;
+}
+}
+
+@media screen and (max-width:1080px) {
+.prdctdegncontn-p h1 {
+    font-size: 26px;
+}
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:853px) {
+.overlyblck-p h2 {
+    padding-top: 5%;
+}
+.prdctdegncontn-p {
+    padding-top: 1%;
+}
+.prdctdegncontn-p ul li {
+    font-size: 18px;
+}
+.prdctdegncontn-p ul {
+    padding-left: 53px;
+}
+.btnsgnup-p {
+    margin-top: 44px;
+}
+.btnsgnup-p a {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 17px;
+}
+.btnsgnup-p a {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 19px;
+}
+.btnsgnup-p {
+    text-align: center;
+}
+}
+
+@media screen and (max-width:800px) {
+
+}
+
+@media screen and (max-width:768px) {
+.lognform-p {
+    width: 74%;
+}
+}
+
+@media screen and (max-width:750px) {
+.frgt-p {
+    text-align: left;
+}
+}
+
+@media screen and (max-width:736px) {
+.overlyblck-p h2 {
+    font-size: 27px;
+}
+.btnsgnup-p a {
+    font-size: 17px;
+}
+.prdctdegncontn-p h1 {
+    font-size: 24px;
+}
+}
+
+@media screen and (max-width:731px) {
+.prdctdegncontn-p p {
+    font-size: 19px;
+}
+}
+
+@media screen and (max-width:720px) {
+
+}
+
+@media screen and (max-width:667px) {
+.overlyblck-p h2 {
+    font-size: 25px;
+}
+.logo img {
+    width: 8%;
+}
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+@media screen and (max-width:568px) {
+.prdctdegncontn-p h1 {
+    font-size: 21px;
+    line-height: 35px;
+    margin-top: 0px;
+}
+.lognform-p {
+    width: 83%;
+}
+.loginpag-p {
+    height: auto;
+    /*padding-bottom: 6%;*/
+}
+}
+
+@media screen and (max-width:480px) {
+.prdctdegncontn-p ul {
+    padding-left: 4px;
+}
+}
+
+@media screen and (max-width:414px) {
+.overlyblck-p h2 {
+    font-size: 19px;
+}
+.lognform-p {
+    width: 95%;
+        padding: 25px 10px 30px;
+}
+.loginpag-p {
+    height: auto;
+   /* padding-bottom: 19%;
+    padding-top: 11%;*/
+}
+.prdctdegncontn-p h1 {
+    font-size: 19px;
+}
+.prdctdegncontn-p p {
+    font-size: 17px;
+}
+.prdctdegncontn-p ul li {
+    font-size: 16px;
+}
+.btnsgnup-p a {
+    font-size: 16px;
+}
+.overlyblck-p {
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+}
+@media screen and (max-width:420px) {
+  .register-p {
+    position: relative;
+    margin: 6% auto 4%;
+} 
+a.sgninp-p {
+    position: absolute;
+    background-color: #5fb92a;
+    color: #fff;
+    right: 6px;
+    top: 35px;
+    font-size: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+}
+@media screen and (max-width:411px) {
+.register-p {
+    position: relative;
+    margin: 7% auto 4%;
+}
+a.sgninp-p {
+    position: absolute;
+    background-color: #5fb92a;
+    color: #fff;
+    right: 6px;
+    top: 35px;
+    font-size: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+}
+
+@media screen and (max-width:375px) {
+.prdctdegncontn-p {
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+a.sgninp-p {
+    position: absolute;
+    background-color: #5fb92a;
+    color: #fff;
+    right: 6px;
+    top: 35px;
+    font-size: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+.register-p {
+    position: relative;
+    margin: 7% auto 4%;
+}
+.register-p h3 {
+    font-size: 15px;
+}
+.btnsgnup-p {
+    padding-bottom: 31%;
+}
+.frgttxt-p input {
+    width: 100%;
+    }
+.lognform-p .btn.ppsignup-p {
+    width: 90%;
+}
+.frgttxt-p p {
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width:360px) {
+.btnsgnup-p {
+    padding-bottom: 23%;
+}
+a.sgninp-p {
+    position: absolute;
+    background-color: #5fb92a;
+    color: #fff;
+    right: 6px;
+    top: 35px;
+    font-size: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+.register-p {
+    position: relative;
+    margin: 7% auto 4%;
+}
+}
+
+@media screen and (max-width:340px) {
+.overlyblck-p h2 {
+    font-size: 17px;
+}
+a.sgninp-p {
+    position: absolute;
+    background-color: #5fb92a;
+    color: #fff;
+    right: 6px;
+    top: 35px;
+    font-size: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+.logo img {
+    width: 7%;
+}
+.register-p {
+    position: relative;
+    margin: 7% auto 4%;
+}
+.prdctdegncontn-p {
+    padding-top: 14%;
+}
+}
+
+@media screen and (max-width:320px) {
+.overlyblck-p h2 {
+    font-size: 16px;
+}
+.register-p h3 {
+    font-size: 18px;
+}
+.ppcpyrght-p a {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+a.sgninp-p {
+    position: absolute;
+    background-color: #5fb92a;
+    color: #fff;
+    right: 6px;
+    top: 35px;
+    font-size: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+.prdctdegncontn-p p {
+    font-size: 16px;
+}
+.prdctdegncontn-p ul {
+    padding-left: 0px;
+    padding-top: 17px;
+}
+.register-p {
+    position: relative;
+    margin: 7% auto 4%;
+}
+.btnsgnup-p {
+    margin-top: 30px;
+    padding-bottom: 8%;
+}
+.btnsgnup-p a {
+    font-size: 15px;
+}
+.prdctdegncontn-p h1 {
+    font-size: 18px;
+}
+.overlyblck-p h2 {
+    padding-top: 12%;
+}
+.prdctdegncontn-p {
+    padding-top: 5%;
+}
+.prdctdegncontn-p h1 {
+    line-height: 27px;
+}
+}

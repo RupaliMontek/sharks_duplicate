@@ -1,0 +1,26 @@
+
+	table {
+    border: 1px solid black;
+    border-collapse: collapse;
+	margin:auto;
+	
+	}
+	th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	}
+	th, td {
+		padding: 8px;
+		text-align: center;
+	}
+	.text_left{
+	text-align:left;
+	}
+
+	.col_wid2 td{
+	width:20%;
+	}
+	.text_right{
+	text-align:right;
+	}
+	

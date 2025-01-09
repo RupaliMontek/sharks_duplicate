@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;600;800&display=swap');
+
+.servicesBannerr p{color:#ffffff; font-size:20px;font-family: 'Mukta Mahee', sans-serif; font-weight:400;padding-right:20px;}
+#frservicesss{background:#0056d5; padding:100px 50px; margin:80px 0 0 0;}
+.servicesBannerr h1{color:#ffffff; font-size:50px; text-transform:uppercase;        font-family: 'Mukta Mahee', sans-serif;font-weight:800;}
+.demoformmm{width:100%;}
+.demoformmm input{border:2px solid #1f6bdc; background:none; border-radius:5px; line-height:34px; font-size:14px; height:auto; color:rgb(255,255,255,0.5) !important;}
+.demoformmm ::placeholder{color:rgb(255,255,255,0.5) !important;}
+.demoformmm input:focus{background:none;}
+.demoformmm h3{font-size:16px; font-weight:800; color:#ffffff;}
+.demoformmm button{background:#ff6500 !important; color:#ffffff; line-height:34px;}
+
+.frCustoReln{background:#262626; padding:100px 0;}
+.frCustoReln h2{color:#ffffff; font-size:45px;font-family:'Mukta Mahee', sans-serif;font-weight:600; text-align:center;}
+.frCustoReln p{font-size:18px; color:#e4e4e4; text-align:center; width:65%; margin:0px auto; line-height:32px;}
+.forbtnn{width:100%; text-align:center; margin:0; padding:0;}
+.frCustoReln .btn{margin:25px auto 0; border-color:#ffffff; color:#ffffff; display:inline-block;}
+
+/* css for key features section on crm start */
+
+.keyFeaturess{padding:100px 0 0 0;}
+.keyFeaturess .section-header p{color:#262626; font-size:18px; margin:-22px 0 0 0; padding:0 0 25px 0; width:100%; text-align:center;}
+.keyFeaturess h3{color:#262626; font-size:45px;font-family:'Mukta Mahee', sans-serif;font-weight:600; text-align:center;}
+.keyFeaturess .img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.keyFeaturess .img img {
+  transition: 0.6s;
+}
+
+.keyFeaturess .details {
+  padding: 50px 10px;
+  margin: -100px 15px 0 15px;
+  transition: all ease-in-out 0.3s;
+  /*background: #ffffff;*/
+  position: relative;
+  background: rgb(255,255,255, 0.9);
+  text-align: center;
+  border-radius: 8px;
+  /*box-shadow: 0px 0 25px rgb(0,0,0, 0.1);*/
+}
+
+.keyFeaturess .details .icon {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: #0056d5;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border: 6px solid #ffffff;
+}
+
+.keyFeaturess .details h3 {
+  color: #0056d5;
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+  transition: ease-in-out 0.3s;
+  font-family:'Mukta Mahee', sans-serif;font-weight:800;
+}
+.keyFeaturess .details h6 {
+  color: #262626;
+  font-weight: 700;
+  margin: 5px 0 5px 0 !important;
+  font-size: 16px;
+  transition: ease-in-out 0.3s;
+  font-family:'Mukta Mahee', sans-serif;font-weight:600;
+}
+
+.keyFeaturess .details p {
+  line-height: 22px;
+  font-size: 15px;
+  margin-bottom: 0;
+  font-family:'Mukta Mahee', sans-serif;font-weight:400;word-wrap: break-word;
+}
+
+.keyFeaturess .service-item:hover .details h3 {
+  color: #262626;
+}
+
+.keyFeaturess .service-item:hover .details .icon {
+  background: #262626;
+  border: 2px solid #ffffff;
+}
+
+.keyFeaturess .service-item:hover .details .icon i {
+  color: #0056d5;
+}
+
+.keyFeaturess .service-item:hover .img img {
+  transform: scale(1.2);
+}
+.FrKeyF{display:flex; align-items:stretch; align-content:stretch; padding-bottom:20px;}
+.keyFeaturess .FrKeyF:last-child{justify-content:center;}
+
+.FrKeyF ul{list-style:none; padding:10px 0 0 0; margin:0;}
+.FrKeyF ul li{padding:0 0 0 15px; margin:0; text-align:left; background:url(/frontend/landing_page_files/assets/img/nextbtn.png) no-repeat left 8px;}
+.FrKeyF ul li i{color:#262626; margin:0 10px 0 0;}
+.FrKeyF ul li a{padding:0; margin:0; color:#262626; font-size:15px; text-align:center;}
+
+/* css for key features section on crm end */
+
+/* why choose us start here */
+.whychose-sec {
+  margin:0 auto; background:#e8f1fa;
+  display:flex;
+  justify-content:center;
+  padding:100px 30px 50px;
+  box-sizing:border-box;font-family:'Mukta Mahee', sans-serif !important; font-weight:400;
+}
+.ftr-lists {
+  width:100%;
+  display:flex;
+  flex-wrap:wrap; justify-content:space-between;
+}
+.ftr-lists li{width:49%;}
+.list-item {
+  width:50%;
+  padding-left:0;
+  box-sizing:border-box;
+  margin-bottom:25px;
+  font:18px/1.4 var(--zf-primary-regular);
+  position:relative;
+  letter-spacing:-0.16px; list-style:none;font-family:'Mukta Mahee', sans-serif !important;
+}
+.whychose-sec h2{ color: #262626;
+  margin: 5px 0 5px 0 !important;
+  font-size: 38px; text-transform:uppercase;
+  transition: ease-in-out 0.3s;line-height: 65px;
+  font-weight:800;font-family:'Mukta Mahee', sans-serif !important;}
+  
+  .whychose-sec h5{ color: #262626;
+  margin: 5px 0 5px 0 !important;
+  font-size: 23px;
+  transition: ease-in-out 0.3s;
+  font-weight:800;font-family:'Mukta Mahee', sans-serif !important;}
+.servlastsectionnOuterr{background:#e8f1fa;display:flex;padding:0 0 60px 0; margin-top:-2px;}  
+.servlastsectionn{padding:60px; background:#262626; border-radius:20px;}
+.servlastsectionn h3{font-weight: 800; color:#ffffff;
+  font-family: 'Mukta Mahee', sans-serif !important;font-size: 40px; text-transform:uppercase;}
+.servlastsectionn p{font-family: 'Mukta Mahee', sans-serif !important;font-size: 18px; color:#ffffff; margin:0;}
+.servlastsectionn a.btn{background:#ffffff; color:#262626; margin:25px 0 0 0;}
+/* why choose us end here */
+
+/* Gst compliance start here */
+.gstCompliance{
+  margin:0 auto; background:#dee9dc;
+  justify-content:center;
+  padding:100px 30px 50px;
+  box-sizing:border-box;font-family:'Mukta Mahee', sans-serif !important; font-weight:400;
+}
+.gstCompliance ul {
+  width:100%;
+  display:flex;
+  flex-wrap:wrap; justify-content:space-between;
+}
+.gstCompliance ul li{width:100%;}
+
+.gstCompliance h2{ color: #262626; width:100%;
+  margin: 5px 0 5px 0 !important;
+  font-size: 40px; text-transform:uppercase;
+  transition: ease-in-out 0.3s;
+  font-weight:800;font-family:'Mukta Mahee', sans-serif !important;}
+.gstCompliance h4{ color: #262626;font-size: 20px;font-weight:600;}
+  
+/* Gst compliance end here */
+/* for accordion start here */
+.fraccordionn{padding:60px 0;background:#e8f1fa;}
+.fraccordionn h2{color: #262626; margin: 0 !important;font-size: 40px; text-transform:uppercase;transition: ease-in-out 0.3s; font-weight:800;font-family:'Mukta Mahee', sans-serif !important; text-align:center; padding:0 0 25px 0;}
+.card-header .title {
+    font-size: 17px;
+    color: #000;
+}
+.card-header .accicon {
+  float: right;
+  font-size: 20px;  
+  width: 1.2em;
+}
+.card-header{
+  cursor: pointer;
+  border-bottom: none;
+}
+.card{
+  border: 1px solid #ddd;
+}
+.card-body{
+  border-top: 1px solid #ddd;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+/* bottom part css start here */
+.bottomPartt{padding:60px 0; text-align:center;}
+.bottomPartt h3{color: #262626;font-size: 45px;font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 600;text-align: center;}
+.blackbtnn{border-color:#262626;}
+.bottomPartt .blackbtnn:hover{background:#ffffff !important; color:#262626 !important;}
+
+/* for adv_msuit */
+.adv_msuit{padding:60px 0; background:#dee9dc;}
+.adv_msuit h2{color: #262626; margin: 0 !important;font-size: 40px; text-transform:uppercase;transition: ease-in-out 0.3s; font-weight:800;font-family:'Mukta Mahee', sans-serif !important; text-align:center; padding:0 0 25px 0;}
+.adv_msuit h4{color: #262626; margin: 0 !important;font-size: 22px; text-transform:uppercase;transition: ease-in-out 0.3s; font-weight:800;font-family:'Mukta Mahee', sans-serif !important; text-align:left; padding:0 0 10px 0;}
+.adv_msuit p{font-family: 'Mukta Mahee', sans-serif !important;font-size: 18px; color:#262626; margin:0;padding:0 0 25px 0;}
+
+@media only screen and (max-width:767px){
+#header .logo img{margin: 0;max-height: unset !important; width: 90px !important; padding: 0;}
+#header.header-scrolled{padding:8px 0;}
+#frservicesss{padding:50px 15px;}
+.servicesBannerr h1{font-size:34px;}
+.frCustoReln{padding:50px 15px;}
+.frCustoReln h2{font-size:34px;}
+.keyFeaturess{padding:50px 15px;}
+.keyFeaturess h3{font-size:34px;}
+.whychose-sec{padding:50px 15px;}
+.whychose-sec h2{font-size:34px;}
+.ftr-lists li{width:100%;}
+.servlastsectionn{padding:50px 15px;}
+.servlastsectionn h3{font-size:34px;}
+.frCustoReln p{width:100%;}
+.ftr-lists{padding:0;}
+}

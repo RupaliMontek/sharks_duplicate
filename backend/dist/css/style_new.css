@@ -1,0 +1,292 @@
+#calendar {
+    max-width:1024px!important;
+    margin: 0!important;
+}
+.sidebar-menu li.active>.treeview-menu {
+    display: block!important;
+    
+}
+.box-header {
+    color: #444;
+    display: block;
+    padding: 0px;
+    position: relative;
+}
+.btn {
+    display: inline-block;
+    padding: 0px 5px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
+   display: inline-block;
+    font-size: 16px;
+    margin: 8px;
+    line-height: 1;
+}
+
+.content-header>.breadcrumb {
+    float: right;
+    background: transparent;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 7px 5px;
+    position: absolute;
+    top: 15px;
+    right: 34px;
+    border-radius: 2px;
+}
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 5px;
+    margin-bottom: -40px;
+}
+.ppdlyrept-p {
+    margin-top:28px;
+}
+.content-header>h1 {
+    font-size: 18px;
+}
+.content-header {
+    position: relative;
+    /*padding: 1px 17px;*/
+    /* margin: -4px; */
+    margin-bottom: -10px;
+    margin-top: -4px;
+}
+.main-header>.navbar {
+    -webkit-transition: margin-left .3s ease-in-out;
+    -o-transition: margin-left .3s ease-in-out;
+    transition: margin-left .3s ease-in-out;
+    margin-bottom: 0;
+    margin-left: 229px;
+    border: none;
+    min-height: 29px;
+    border-radius: 0;
+    height: 55px;
+}
+.btn-warning {
+    margin-top: 6px;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+     background: #7e7b7b!important;
+   
+}
+.skin-blue .sidebar a {
+    color: #ffffff!important;
+}
+.skin-blue .main-header li.user-header {
+    background-color: #f8c300;
+}
+.skin-blue .main-header .logo {
+    background: #ffffff!important;
+     color: #000;
+}
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer {
+    background-color: #7e7b7b;
+    padding: 10px;
+}
+.skin-blue .main-header .navbar{
+   background: #f8c300!important;
+        color: #000;
+}
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #000;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #f8c300;
+}
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #000;
+    font-weight: 900;
+    padding: 17px 15px;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #f8c300;
+}
+
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff!important;
+    cursor: default;
+    background-color: #000!important;
+    border-color: #000!important;
+}
+.main-footer strong a {
+    color: #ffc900;
+}
+#dropdiv .bg-orange {
+    background-color: #7e7b7b !important;
+}
+#dropdiv .modal-header .close {
+    margin-top: 20px;
+    color: #000;
+    opacity: 1;
+}
+.info-box-content {
+    padding: 10px 10px;
+    margin-left: 0;
+}
+#dropdiv  .info-box-content a {
+    color: #000000;
+    font-size: 22px;
+}
+.info-box {
+    background: #f8c300;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.box.box-solid.box-primary>.box-header {
+    color: #fff;
+    background: #1e282c;
+    background-color: #1e282c;
+}
+.box.box-solid.box-info>.box-header {
+    color: #fff;
+    background: #1e282c;
+    background-color: #1e282c;
+}
+.logo-lg{
+    padding: 0px 0;
+}
+.logo-mini{
+    padding: 8px 0;
+}
+.logo-lg img{
+    width:50%;
+}
+.logo-mini img{
+    width: 85%;
+    margin-top: 16px;
+}
+.main-header .logo{
+    height:55px;
+}
+.main-sidebar, .left-side {
+    padding-top: 80px;
+}
+.main-header .sidebar-toggle {
+    padding: 26px 15px;
+}
+.btn-success {
+    background-color: #7e7b7b;
+    border-color: #000000;
+}
+.btn-success:hover, .btn-success:active, .btn-success.hover {
+    background-color: #f8c300;
+     border-color: #000000;
+}
+.btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:hover, .open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #f8c300;
+     border-color: #000000;
+}
+.btn-info {
+    background-color: #7e7b7b;
+    border-color: #000000;
+}
+.btn-info:hover, .btn-info:active, .btn-info.hover {
+   background-color: #f8c300;
+     border-color: #000000;
+}
+.btn-primary {
+     background-color: #7e7b7b;
+    border-color: #000000;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover {
+   background-color: #f8c300;
+     border-color: #000000;
+}
+.user-panel>.image>img {
+   height: 45px;
+    width: 45px;
+}
+.user-panel>.info>p {
+    margin-top: 8px;
+}
+
+.modal-header {
+    background-color: #f8c300!important;
+    color: #fff;
+}
+.btn_right{
+    float: right;
+}
+.box-footer{
+    padding: 0;
+}
+.leave_info label{
+    padding: 0 2px;
+}
+@media screen and (max-width:991px){
+   .navbar-nav>.user-menu>.dropdown-menu>.user-footer .btn-default {
+        background: #fff!important
+    }
+}
+@media screen and (max-width:750px) {
+    .logo-lg img {
+    width: 16%;
+}
+.content-header {
+    position: relative;
+    padding: 55px 15px 0 15px;
+}
+ .skin-blue .main-sidebar{
+     margin-top: 48px;
+ }
+}
+@media screen and (max-width: 667px){
+.logo-lg img {
+    width: 19%;
+}
+}
+@media screen and (max-width: 568px){
+.logo-lg img {
+    width: 22%;
+}
+}
+@media screen and (max-width: 480px){
+.logo-lg img {
+    width: 26%;
+}
+}
+@media screen and (max-width: 414px){
+.logo-lg img {
+    width: 26%;
+}
+}
+@media screen and (max-width: 375px){
+.logo-lg img {
+    width: 35%;
+}
+}
+@media screen and (max-width: 340px){
+.logo-lg img {
+    width: 42%;
+}
+}
+@media screen and (max-width: 320px){
+    .panel-title {
+    font-size: 12px;
+}
+}

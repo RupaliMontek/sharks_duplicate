@@ -1,0 +1,112 @@
+.templet h1{
+  text-align: center;
+    color: green;
+    margin-top: -10px;
+    font-size: 26px;
+}
+.background{
+
+  background-image: url("../images/template/img1.jpg"); 
+ 
+  
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+#rcorners1 {
+     background-image: url(../images/template/idli.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 21px; */
+    /* background-size: cover; */
+    width: 258px;
+    height:213px;
+    /* box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.1); */
+    /* margin-bottom: 20px; */
+    /* float: left; */
+   margin-left: -30px;
+  
+
+}
+#pcorners1 {
+    border-radius: 50%;
+    background: green;
+    padding: 21px;
+    width: 300px;
+    height: 150px;
+        margin-bottom: 20px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.1);
+
+}
+#scorners1 {
+     background-image: url(../images/template/dosa.png);
+    /*  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; */
+    border-radius: 50%;
+    /* padding: 21px; */
+    width: 344px;
+    height: 247px;
+    /* box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.1); */
+    /* margin-bottom: 20px; */
+    /* float: left; */
+   margin-left: 108px;
+    margin-top: -92px;
+}
+ 
+ #scorners1  p{
+        margin-top: 39px;
+    text-align: center;
+    color: blue;
+        font-size: 22px;
+        font-weight: 500;
+}
+    #rcorners1  p{
+     margin-top: 39px;
+    text-align: center;
+       color: white;
+        font-size: 22px;
+        font-weight: 500;
+}
+
+    #pcorners1 p{
+         margin-top: 39px;
+    text-align: center;
+    color: white;
+        font-size: 22px;
+        font-weight: 500;
+    }
+.heading{
+    font-size: 18px;
+    color: black;
+}
+.paragraph{
+   font-weight: bold;
+    color:#d41487;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.row{
+    margin-right: -15px;
+   
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.paragraph1{
+    font-weight: bold;
+    color: #810c96;
+    font-size: 27px;
+    font-family: initial;
+    text-align: center;
+}
+
+.col-md-4 {
+        width: 27%;
+    float: left;
+    padding: 0 15px;
+    margin-left: 12px;
+}
