@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://sharksjob.com/';
+$config['base_url'] = 'https://localhost/sharks_job/';
 // error_reporting(E_ALL & ~E_DEPRECATED);
 
 /*
